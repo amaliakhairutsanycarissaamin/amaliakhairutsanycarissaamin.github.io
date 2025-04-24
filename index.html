@@ -242,7 +242,15 @@
         </a>
         <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
       </div>
-      <p>&#169; 2022 copyright By Amalia Khairutsany Carissa Amin</p>
+
+      <p>
+        &#169; <span id="current-year"></span> copyright By Amalia Khairutsany
+        Carissa Amin
+      </p>
+      <script>
+        document.getElementById("current-year").textContent =
+          new Date().getFullYear();
+      </script>
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
